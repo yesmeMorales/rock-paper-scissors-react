@@ -27,6 +27,15 @@ const ScoreStyled = styled.div`
     position: relative;
     left: -3px;
   }
+  @media screen and (min-width: 768px){
+    padding: 10px 20px;
+    small {
+    font-size: 18px;
+    }
+    p {
+    font-size: 50px;
+    }
+  }
 
 `;
 

@@ -20,9 +20,10 @@ const AppStyled = styled.main`
   font-family: "Barlow Semi Condensed";
   background-image: radial-gradient(circle at top, #1f3757 20%, #131537 100%);
   color: white;
-
+  min-width: 400px;
   .app-content {
     padding: 2em;
+    /* min-width: 400px; */
     min-height: 100vh;
     display: flex;
     box-sizing: border-box;
